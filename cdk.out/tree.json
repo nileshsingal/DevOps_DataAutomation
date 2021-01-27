@@ -1,0 +1,576 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": {
+      "Tree": {
+        "id": "Tree",
+        "path": "Tree"
+      },
+      "As3create": {
+        "id": "As3create",
+        "path": "As3create",
+        "children": {
+          "phoenixoutput12": {
+            "id": "phoenixoutput12",
+            "path": "As3create/phoenixoutput12",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "As3create/phoenixoutput12/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::S3::Bucket",
+                  "aws:cdk:cloudformation:props": {
+                    "bucketName": "phoenixoutput"
+                  }
+                }
+              },
+              "Notifications": {
+                "id": "Notifications",
+                "path": "As3create/phoenixoutput12/Notifications"
+              },
+              "Policy": {
+                "id": "Policy",
+                "path": "As3create/phoenixoutput12/Policy",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "As3create/phoenixoutput12/Policy/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::S3::BucketPolicy",
+                      "aws:cdk:cloudformation:props": {
+                        "bucket": {
+                          "Ref": "phoenixoutput1273AFA8D9"
+                        },
+                        "policyDocument": {
+                          "Statement": [
+                            {
+                              "Action": "s3:GetObject",
+                              "Effect": "Allow",
+                              "Principal": "*",
+                              "Resource": {
+                                "Fn::Join": [
+                                  "",
+                                  [
+                                    {
+                                      "Fn::GetAtt": [
+                                        "phoenixoutput1273AFA8D9",
+                                        "Arn"
+                                      ]
+                                    },
+                                    "/*"
+                                  ]
+                                ]
+                              }
+                            }
+                          ],
+                          "Version": "2012-10-17"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "phoenixbucketgrp2": {
+            "id": "phoenixbucketgrp2",
+            "path": "As3create/phoenixbucketgrp2",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "As3create/phoenixbucketgrp2/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::S3::Bucket",
+                  "aws:cdk:cloudformation:props": {
+                    "bucketName": "phoenixbucketgrp25"
+                  }
+                }
+              },
+              "Notifications": {
+                "id": "Notifications",
+                "path": "As3create/phoenixbucketgrp2/Notifications"
+              },
+              "Policy": {
+                "id": "Policy",
+                "path": "As3create/phoenixbucketgrp2/Policy",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "As3create/phoenixbucketgrp2/Policy/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::S3::BucketPolicy",
+                      "aws:cdk:cloudformation:props": {
+                        "bucket": {
+                          "Ref": "phoenixbucketgrp2958D9D1C"
+                        },
+                        "policyDocument": {
+                          "Statement": [
+                            {
+                              "Action": "s3:GetObject",
+                              "Effect": "Allow",
+                              "Principal": "*",
+                              "Resource": {
+                                "Fn::Join": [
+                                  "",
+                                  [
+                                    {
+                                      "Fn::GetAtt": [
+                                        "phoenixbucketgrp2958D9D1C",
+                                        "Arn"
+                                      ]
+                                    },
+                                    "/*"
+                                  ]
+                                ]
+                              }
+                            }
+                          ],
+                          "Version": "2012-10-17"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "CDKMetadata": {
+            "id": "CDKMetadata",
+            "path": "As3create/CDKMetadata",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "As3create/CDKMetadata/Default"
+              },
+              "Condition": {
+                "id": "Condition",
+                "path": "As3create/CDKMetadata/Condition"
+              }
+            }
+          }
+        }
+      },
+      "Bgluedbcreate": {
+        "id": "Bgluedbcreate",
+        "path": "Bgluedbcreate",
+        "children": {
+          "phoenixdb1": {
+            "id": "phoenixdb1",
+            "path": "Bgluedbcreate/phoenixdb1",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "Bgluedbcreate/phoenixdb1/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::Glue::Database",
+                  "aws:cdk:cloudformation:props": {
+                    "catalogId": {
+                      "Ref": "AWS::AccountId"
+                    },
+                    "databaseInput": {
+                      "name": "phoenixdb"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "CDKMetadata": {
+            "id": "CDKMetadata",
+            "path": "Bgluedbcreate/CDKMetadata",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "Bgluedbcreate/CDKMetadata/Default"
+              },
+              "Condition": {
+                "id": "Condition",
+                "path": "Bgluedbcreate/CDKMetadata/Condition"
+              }
+            }
+          }
+        }
+      },
+      "Clambda": {
+        "id": "Clambda",
+        "path": "Clambda",
+        "children": {
+          "Role": {
+            "id": "Role",
+            "path": "Clambda/Role"
+          },
+          "ImmutableRoleRole": {
+            "id": "ImmutableRoleRole",
+            "path": "Clambda/ImmutableRoleRole"
+          },
+          "lambda_function12": {
+            "id": "lambda_function12",
+            "path": "Clambda/lambda_function12",
+            "children": {
+              "Code": {
+                "id": "Code",
+                "path": "Clambda/lambda_function12/Code",
+                "children": {
+                  "Stage": {
+                    "id": "Stage",
+                    "path": "Clambda/lambda_function12/Code/Stage"
+                  },
+                  "AssetBucket": {
+                    "id": "AssetBucket",
+                    "path": "Clambda/lambda_function12/Code/AssetBucket"
+                  }
+                }
+              },
+              "Resource": {
+                "id": "Resource",
+                "path": "Clambda/lambda_function12/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::Lambda::Function",
+                  "aws:cdk:cloudformation:props": {
+                    "code": {
+                      "s3Bucket": {
+                        "Ref": "AssetParameters7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cdS3Bucket313E37BD"
+                      },
+                      "s3Key": {
+                        "Fn::Join": [
+                          "",
+                          [
+                            {
+                              "Fn::Select": [
+                                0,
+                                {
+                                  "Fn::Split": [
+                                    "||",
+                                    {
+                                      "Ref": "AssetParameters7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cdS3VersionKeyCC6D94CF"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "Fn::Select": [
+                                1,
+                                {
+                                  "Fn::Split": [
+                                    "||",
+                                    {
+                                      "Ref": "AssetParameters7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cdS3VersionKeyCC6D94CF"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        ]
+                      }
+                    },
+                    "role": "arn:aws:iam::147279300887:role/successnick",
+                    "handler": "lambdahandler.lambda_handler",
+                    "runtime": "python3.7"
+                  }
+                }
+              }
+            }
+          },
+          "AssetParameters": {
+            "id": "AssetParameters",
+            "path": "Clambda/AssetParameters",
+            "children": {
+              "7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cd": {
+                "id": "7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cd",
+                "path": "Clambda/AssetParameters/7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cd",
+                "children": {
+                  "S3Bucket": {
+                    "id": "S3Bucket",
+                    "path": "Clambda/AssetParameters/7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cd/S3Bucket"
+                  },
+                  "S3VersionKey": {
+                    "id": "S3VersionKey",
+                    "path": "Clambda/AssetParameters/7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cd/S3VersionKey"
+                  },
+                  "ArtifactHash": {
+                    "id": "ArtifactHash",
+                    "path": "Clambda/AssetParameters/7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cd/ArtifactHash"
+                  }
+                }
+              }
+            }
+          },
+          "mybucket": {
+            "id": "mybucket",
+            "path": "Clambda/mybucket",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "Clambda/mybucket/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::S3::Bucket",
+                  "aws:cdk:cloudformation:props": {
+                    "bucketName": "mydemoobuckett31"
+                  }
+                }
+              },
+              "Notifications": {
+                "id": "Notifications",
+                "path": "Clambda/mybucket/Notifications",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "Clambda/mybucket/Notifications/Resource"
+                  }
+                }
+              },
+              "Policy": {
+                "id": "Policy",
+                "path": "Clambda/mybucket/Policy",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "Clambda/mybucket/Policy/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::S3::BucketPolicy",
+                      "aws:cdk:cloudformation:props": {
+                        "bucket": {
+                          "Ref": "mybucket160F8132"
+                        },
+                        "policyDocument": {
+                          "Statement": [
+                            {
+                              "Action": "s3:GetObject",
+                              "Effect": "Allow",
+                              "Principal": "*",
+                              "Resource": {
+                                "Fn::Join": [
+                                  "",
+                                  [
+                                    {
+                                      "Fn::GetAtt": [
+                                        "mybucket160F8132",
+                                        "Arn"
+                                      ]
+                                    },
+                                    "/*"
+                                  ]
+                                ]
+                              }
+                            }
+                          ],
+                          "Version": "2012-10-17"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "AllowBucketNotificationsToClambdalambdafunction1252F920CE": {
+                "id": "AllowBucketNotificationsToClambdalambdafunction1252F920CE",
+                "path": "Clambda/mybucket/AllowBucketNotificationsToClambdalambdafunction1252F920CE",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::Lambda::Permission",
+                  "aws:cdk:cloudformation:props": {
+                    "action": "lambda:InvokeFunction",
+                    "functionName": {
+                      "Fn::GetAtt": [
+                        "lambdafunction1210EF84BE",
+                        "Arn"
+                      ]
+                    },
+                    "principal": "s3.amazonaws.com",
+                    "sourceAccount": {
+                      "Ref": "AWS::AccountId"
+                    },
+                    "sourceArn": {
+                      "Fn::GetAtt": [
+                        "mybucket160F8132",
+                        "Arn"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "BucketNotificationsHandler050a0587b7544547bf325f094a3db834": {
+            "id": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834",
+            "path": "Clambda/BucketNotificationsHandler050a0587b7544547bf325f094a3db834",
+            "children": {
+              "Role": {
+                "id": "Role",
+                "path": "Clambda/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role",
+                "children": {
+                  "Resource": {
+                    "id": "Resource",
+                    "path": "Clambda/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role/Resource",
+                    "attributes": {
+                      "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                      "aws:cdk:cloudformation:props": {
+                        "assumeRolePolicyDocument": {
+                          "Statement": [
+                            {
+                              "Action": "sts:AssumeRole",
+                              "Effect": "Allow",
+                              "Principal": {
+                                "Service": "lambda.amazonaws.com"
+                              }
+                            }
+                          ],
+                          "Version": "2012-10-17"
+                        },
+                        "managedPolicyArns": [
+                          {
+                            "Fn::Join": [
+                              "",
+                              [
+                                "arn:",
+                                {
+                                  "Ref": "AWS::Partition"
+                                },
+                                ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+                              ]
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "DefaultPolicy": {
+                    "id": "DefaultPolicy",
+                    "path": "Clambda/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role/DefaultPolicy",
+                    "children": {
+                      "Resource": {
+                        "id": "Resource",
+                        "path": "Clambda/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role/DefaultPolicy/Resource",
+                        "attributes": {
+                          "aws:cdk:cloudformation:type": "AWS::IAM::Policy",
+                          "aws:cdk:cloudformation:props": {
+                            "policyDocument": {
+                              "Statement": [
+                                {
+                                  "Action": "s3:PutBucketNotification",
+                                  "Effect": "Allow",
+                                  "Resource": "*"
+                                }
+                              ],
+                              "Version": "2012-10-17"
+                            },
+                            "policyName": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleDefaultPolicy2CF63D36",
+                            "roles": [
+                              {
+                                "Ref": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "Resource": {
+                "id": "Resource",
+                "path": "Clambda/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Resource"
+              }
+            }
+          },
+          "CDKMetadata": {
+            "id": "CDKMetadata",
+            "path": "Clambda/CDKMetadata",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "Clambda/CDKMetadata/Default"
+              },
+              "Condition": {
+                "id": "Condition",
+                "path": "Clambda/CDKMetadata/Condition"
+              }
+            }
+          }
+        }
+      },
+      "Dcrawlercreate": {
+        "id": "Dcrawlercreate",
+        "path": "Dcrawlercreate",
+        "children": {
+          "phoenix_crawler": {
+            "id": "phoenix_crawler",
+            "path": "Dcrawlercreate/phoenix_crawler",
+            "attributes": {
+              "aws:cdk:cloudformation:type": "AWS::Glue::Crawler",
+              "aws:cdk:cloudformation:props": {
+                "role": "arn:aws:iam::147279300887:role/successnick",
+                "targets": {
+                  "s3Targets": [
+                    {
+                      "path": "s3://mydemoobuckett31"
+                    }
+                  ]
+                },
+                "databaseName": "phoenixdb",
+                "description": "Glue Crawler for my-data-science-s3",
+                "name": "phoenixcrawler"
+              }
+            }
+          },
+          "CDKMetadata": {
+            "id": "CDKMetadata",
+            "path": "Dcrawlercreate/CDKMetadata",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "Dcrawlercreate/CDKMetadata/Default"
+              },
+              "Condition": {
+                "id": "Condition",
+                "path": "Dcrawlercreate/CDKMetadata/Condition"
+              }
+            }
+          }
+        }
+      },
+      "Fgluejob": {
+        "id": "Fgluejob",
+        "path": "Fgluejob",
+        "children": {
+          "CDKMetadata": {
+            "id": "CDKMetadata",
+            "path": "Fgluejob/CDKMetadata",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "Fgluejob/CDKMetadata/Default"
+              },
+              "Condition": {
+                "id": "Condition",
+                "path": "Fgluejob/CDKMetadata/Condition"
+              }
+            }
+          }
+        }
+      },
+      "Gwfcreate": {
+        "id": "Gwfcreate",
+        "path": "Gwfcreate",
+        "children": {
+          "CDKMetadata": {
+            "id": "CDKMetadata",
+            "path": "Gwfcreate/CDKMetadata",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "Gwfcreate/CDKMetadata/Default"
+              },
+              "Condition": {
+                "id": "Condition",
+                "path": "Gwfcreate/CDKMetadata/Condition"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

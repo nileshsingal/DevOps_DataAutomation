@@ -1,0 +1,732 @@
+{
+  "version": "8.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "As3create": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "As3create.template.json"
+      },
+      "metadata": {
+        "/As3create/phoenixoutput12/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "phoenixoutput1273AFA8D9",
+            "trace": [
+              "new Bucket (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:504:26)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/As3create/phoenixoutput12/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "phoenixoutput12PolicyD046B718",
+            "trace": [
+              "new BucketPolicy (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket-policy.js:30:25)",
+              "Bucket.addToResourcePolicy (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:131:27)",
+              "Function.addToPrincipalOrResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:68:49)",
+              "Bucket.grantPublicAccess (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:334:26)",
+              "new Bucket (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:551:18)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/As3create/phoenixbucketgrp2/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "phoenixbucketgrp2958D9D1C",
+            "trace": [
+              "new Bucket (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:504:26)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/As3create/phoenixbucketgrp2/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "phoenixbucketgrp2Policy2DEDD1AD",
+            "trace": [
+              "new BucketPolicy (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket-policy.js:30:25)",
+              "Bucket.addToResourcePolicy (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:131:27)",
+              "Function.addToPrincipalOrResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:68:49)",
+              "Bucket.grantPublicAccess (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:334:26)",
+              "new Bucket (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:551:18)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/As3create/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:127:9",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:181:9)",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:178:9)",
+              "injectMetadataResources (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:116:5)",
+              "Object.synthesize (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:16:5)",
+              "App.synth (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stage.js:98:41)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/As3create/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:127:9",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:181:9)",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:178:9)",
+              "injectMetadataResources (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:116:5)",
+              "Object.synthesize (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:16:5)",
+              "App.synth (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stage.js:98:41)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ]
+      }
+    },
+    "Bgluedbcreate": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "Bgluedbcreate.template.json"
+      },
+      "metadata": {
+        "/Bgluedbcreate/phoenixdb1/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "phoenixdb18D9CEC24",
+            "trace": [
+              "new Database (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-glue\\lib\\database.js:31:26)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Bgluedbcreate/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:127:9",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:181:9)",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:178:9)",
+              "injectMetadataResources (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:116:5)",
+              "Object.synthesize (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:16:5)",
+              "App.synth (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stage.js:98:41)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Bgluedbcreate/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:127:9",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:181:9)",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:178:9)",
+              "injectMetadataResources (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:116:5)",
+              "Object.synthesize (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:16:5)",
+              "App.synth (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stage.js:98:41)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ]
+      }
+    },
+    "Clambda": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "Clambda.template.json"
+      },
+      "metadata": {
+        "/Clambda": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cd",
+              "id": "7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cd",
+              "packaging": "zip",
+              "sourceHash": "7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cd",
+              "s3BucketParameter": "AssetParameters7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cdS3Bucket313E37BD",
+              "s3KeyParameter": "AssetParameters7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cdS3VersionKeyCC6D94CF",
+              "artifactHashParameter": "AssetParameters7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cdArtifactHashF9EBE4DA"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.js:395:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:173:29)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:81:25)",
+              "Stack.addFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack.js:400:33)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:85:31)",
+              "new Asset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:44:44)",
+              "AssetCode.bind (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:225:26)",
+              "new Function (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:95:33)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/lambda_function12/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "lambdafunction1210EF84BE",
+            "trace": [
+              "new Function (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:133:26)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/AssetParameters/7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cd/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cdS3Bucket313E37BD",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:160:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:81:25)",
+              "Stack.addFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack.js:400:33)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:85:31)",
+              "new Asset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:44:44)",
+              "AssetCode.bind (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:225:26)",
+              "new Function (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:95:33)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/AssetParameters/7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cd/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cdS3VersionKeyCC6D94CF",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:160:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:81:25)",
+              "Stack.addFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack.js:400:33)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:85:31)",
+              "new Asset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:44:44)",
+              "AssetCode.bind (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:225:26)",
+              "new Function (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:95:33)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/AssetParameters/7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cd/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters7fe8ece64b78080fc392c05334a20d9ffc6257b5a4ac58f386041da961cc86cdArtifactHashF9EBE4DA",
+            "trace": [
+              "new FileAssetParameters (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:160:22)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:81:25)",
+              "Stack.addFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack.js:400:33)",
+              "LegacyStackSynthesizer.addFileAsset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:85:31)",
+              "new Asset (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3-assets\\lib\\asset.js:44:44)",
+              "AssetCode.bind (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-lambda\\lib\\code.js:225:26)",
+              "new Function (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function.js:95:33)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/mybucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mybucket160F8132",
+            "trace": [
+              "new Bucket (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:504:26)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/mybucket/Notifications/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mybucketNotifications82EE6ED4",
+            "trace": [
+              "BucketNotifications.createResourceOnce (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:86:29)",
+              "BucketNotifications.addNotification (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:42:31)",
+              "Bucket.addEventNotification (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:670:28)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/mybucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mybucketPolicy942B6019",
+            "trace": [
+              "new BucketPolicy (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket-policy.js:30:25)",
+              "Bucket.addToResourcePolicy (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:131:27)",
+              "Function.addToPrincipalOrResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:68:49)",
+              "Bucket.grantPublicAccess (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:334:26)",
+              "new Bucket (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:551:18)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/mybucket/AllowBucketNotificationsToClambdalambdafunction1252F920CE": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mybucketAllowBucketNotificationsToClambdalambdafunction1252F920CE0DFF25FF",
+            "trace": [
+              "Function.addPermission (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-lambda\\lib\\function-base.js:38:9)",
+              "LambdaDestination.bind (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3-notifications\\lib\\lambda.js:35:21)",
+              "BucketNotifications.addNotification (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:45:36)",
+              "Bucket.addEventNotification (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:670:28)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC",
+            "trace": [
+              "new Role (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:70:22)",
+              "new NotificationsResourceHandler (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.js:29:22)",
+              "Function.singleton (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.js:78:22)",
+              "BucketNotifications.createResourceOnce (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:85:94)",
+              "BucketNotifications.addNotification (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:42:31)",
+              "Bucket.addEventNotification (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:670:28)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleDefaultPolicy2CF63D36",
+            "trace": [
+              "new Policy (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.js:53:26)",
+              "Role.addToPrincipalPolicy (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:203:34)",
+              "Role.addToPolicy (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:215:21)",
+              "new NotificationsResourceHandler (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.js:36:14)",
+              "Function.singleton (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.js:78:22)",
+              "BucketNotifications.createResourceOnce (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:85:94)",
+              "BucketNotifications.addNotification (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:42:31)",
+              "Bucket.addEventNotification (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:670:28)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketNotificationsHandler050a0587b7544547bf325f094a3db8347ECC3691",
+            "trace": [
+              "new NotificationsResourceHandler (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.js:52:26)",
+              "Function.singleton (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource-handler.js:78:22)",
+              "BucketNotifications.createResourceOnce (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:85:94)",
+              "BucketNotifications.addNotification (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\notifications-resource\\notifications-resource.js:42:31)",
+              "Bucket.addEventNotification (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\aws-s3\\lib\\bucket.js:670:28)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:127:9",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:181:9)",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:178:9)",
+              "injectMetadataResources (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:116:5)",
+              "Object.synthesize (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:16:5)",
+              "App.synth (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stage.js:98:41)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Clambda/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:127:9",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:181:9)",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:178:9)",
+              "injectMetadataResources (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:116:5)",
+              "Object.synthesize (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:16:5)",
+              "App.synth (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stage.js:98:41)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ]
+      }
+    },
+    "Dcrawlercreate": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "Dcrawlercreate.template.json"
+      },
+      "metadata": {
+        "/Dcrawlercreate/phoenix_crawler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "phoenixcrawler",
+            "trace": [
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:49",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "Kernel._create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3589:26)",
+              "Kernel.create (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3324:21)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Dcrawlercreate/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:127:9",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:181:9)",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:178:9)",
+              "injectMetadataResources (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:116:5)",
+              "Object.synthesize (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:16:5)",
+              "App.synth (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stage.js:98:41)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Dcrawlercreate/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:127:9",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:181:9)",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:178:9)",
+              "injectMetadataResources (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:116:5)",
+              "Object.synthesize (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:16:5)",
+              "App.synth (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stage.js:98:41)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ]
+      }
+    },
+    "Fgluejob": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "Fgluejob.template.json"
+      },
+      "metadata": {
+        "/Fgluejob/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:127:9",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:181:9)",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:178:9)",
+              "injectMetadataResources (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:116:5)",
+              "Object.synthesize (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:16:5)",
+              "App.synth (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stage.js:98:41)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Fgluejob/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:127:9",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:181:9)",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:178:9)",
+              "injectMetadataResources (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:116:5)",
+              "Object.synthesize (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:16:5)",
+              "App.synth (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stage.js:98:41)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ]
+      }
+    },
+    "Gwfcreate": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "Gwfcreate.template.json"
+      },
+      "metadata": {
+        "/Gwfcreate/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:127:9",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:181:9)",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:178:9)",
+              "injectMetadataResources (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:116:5)",
+              "Object.synthesize (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:16:5)",
+              "App.synth (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stage.js:98:41)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ],
+        "/Gwfcreate/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:127:9",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:181:9)",
+              "visit (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:178:9)",
+              "injectMetadataResources (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:116:5)",
+              "Object.synthesize (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:16:5)",
+              "App.synth (C:\\Users\\LEGION\\AppData\\Local\\Temp\\jsii-kernel-Q64QNS\\node_modules\\@aws-cdk\\core\\lib\\stage.js:98:41)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:51",
+              "Kernel._wrapSandboxCode (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4073:16)",
+              "C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3404:25",
+              "Kernel._ensureSync (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:4050:20)",
+              "Kernel.invoke (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:3403:26)",
+              "KernelHost.processRequest (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13191:28)",
+              "KernelHost.run (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13129:14)",
+              "Immediate._onImmediate (C:\\Python37\\lib\\site-packages\\jsii\\_embedded\\jsii\\jsii-runtime.js:13132:37)",
+              "processImmediate (internal/timers.js:439:21)"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
